@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ButtonIncrement from './basics/01_button.increment';
 import * as serviceWorker from './serviceWorker';
+import GitHubApp from './basics/02_Github.profile';
+import StarMatch from './basics/03_StarMatch';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <ButtonIncrement /> */}
+    {/* <GitHubApp title="The GitHub Cards App" /> */}
+    <StarMatch/>
   </React.StrictMode>,
   document.getElementById('root')
 );
